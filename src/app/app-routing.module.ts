@@ -2,6 +2,9 @@ import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { ArticleComponent } from "./article/article.component";
 import { FooterComponent } from "./footer/footer.component";
+import { ToolbarComponent } from "./toolbar/toolbar.component";
+import { SampleContentComponent } from "./sample-content/sample-content.component";
+import { AppComponent } from "./app.component";
 
 const routes: Routes = [
   {
@@ -9,8 +12,8 @@ const routes: Routes = [
     component: ArticleComponent
   },
   {
-    path: "footer",
-    component: FooterComponent
+    path: "sample",
+    component: SampleContentComponent
   }
 ];
 
