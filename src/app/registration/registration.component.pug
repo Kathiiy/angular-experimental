@@ -1,0 +1,19 @@
+section.registrationComponent
+    h2 You wanna deep dive in my software? 
+    form(action="POST")
+        .formgroup 
+            label Username: 
+            input(type="text", name="username")
+        .formgroup 
+            label E-Mail:  
+            input(type="email", name="email")
+        .formgroup
+            label Password: 
+            input(type="password", name="password")
+        .formgroup
+            label Repeat Password: 
+            input(type="password", name="repeatPassword")
+        .formgroup
+            input(type="submit", value="Register", name="registerBtn")
+
+
